@@ -10,7 +10,7 @@ public class TestPutRESTApi {
     private final static String POST_FIELDS[] = {"userId" , "id" , "title" , "body"};
     private Help help = new Help();
 
-    /*
+
     @Test
     public void testPutMethodForPostGotByID(){
         String newPostDataFields []= {"1000","1000","automation testing","learning"};
@@ -31,7 +31,5 @@ public class TestPutRESTApi {
         JSONObject data = help.createPostData(POST_FIELDS , newPostDataFields);
         help.validatePutMethodForWrongDataPostGotByID(POST_URL , 1 , data);
     }
-    
-     */
 
 }

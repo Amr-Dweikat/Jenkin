@@ -12,7 +12,7 @@ public class TestGetRESTApi {
             private final static String USERS_URL = URL + "users/";
             private Help help = new Help();
 
-            /*
+
             @Test
             public void testGetForPosts(){
                 help.validateTotalPosts(POSTS_URL);
@@ -66,7 +66,5 @@ public class TestGetRESTApi {
             public void testGetForUserGotByWrongID(){
                 help.validateWrongUserInformation(USERS_URL ,20);
             }
-
-             */
 
 }

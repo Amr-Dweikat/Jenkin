@@ -10,7 +10,7 @@ public class TestPatchRESTApi {
     private final static String POST_FIELDS[] = {"id" , "title" };
     private Help help = new Help();
 
-    /*
+
     @Test
     public void testPatchMethodForPostGotByID(){
         String newPostDataFields []= {"5000","first step for automation testing"};
@@ -31,6 +31,4 @@ public class TestPatchRESTApi {
         JSONObject data = help.createPostData(POST_FIELDS , newPostDataFields);
         help.validatePatchMethodForWrongDataPostGotByID(POST_URL , 5, data);
     }
-
-     */
 }
