@@ -222,7 +222,7 @@ public class Help {
             RequestSpecification request = RestAssured.given();
             request.header("Content-Type","application/json");
             Response response = request.delete(url + id);
-            Assert.assertEquals(404,response.getStatusCode(),"There is an error in rest api delete method");
+            Assert.assertEquals(200,response.getStatusCode(),"There is an error in rest api delete method");
        }
 
 
